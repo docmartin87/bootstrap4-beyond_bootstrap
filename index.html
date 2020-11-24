@@ -8,6 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale-1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
 
 <body>
@@ -38,7 +40,7 @@
             <a href="/login">Sign In / Sign Up</a>
         </div>
     </nav>
-    <article class="container mt-3">
+    <div class="container alert-container">
         <div class="row  d-none d-sm-inline">
             <div class="col-12">
                 <div class="alert alert-warning">
@@ -47,24 +49,28 @@
                 </div>
             </div>
         </div>
-        <!-- Callout -->
-        <div class="row">
-            <div class="col-12">
-                <section class="callout jumbotron text-center">
-                    <h1>The finest whiskeys delivered to your doorstep.</h1>
-                    <p class="lead">Sign up today to start receiving the world's best whiskeys every month.
-                    <s class="d-none d-sm-inline">€19.99</s>
-                    <span class="d-inline d-sm-none"><br></span>
-                    <strong><mark>First one is free!</mark></strong></p>
-                    <button class="btn btn-success btn-lg" data-toggle="modal" data-target="#signupModal">Sign Up!</button>
-                    <p class="text-muted"><small>You must be over 18 to sign up to our service. Please, drink responsibly.</small></p>
-                </section>
-            </div>
-        </div>
-        <!-- /.callout -->
-        <hr>
+    </div>
 
-        <!-- Quotes -->
+    <!-- Callout -->
+    <div class="container callout-container">
+        <div class="row">
+        <div class="col-12">
+            <section class="callout jumbotron text-center">
+                <h1>The finest whiskeys delivered to your doorstep.</h1>
+                <p class="lead">Sign up today to start receiving the world's best whiskeys every month.
+                <s class="d-none d-sm-inline">€19.99</s>
+                <span class="d-inline d-sm-none"><br></span>
+                <strong><mark>First one is free!</mark></strong></p>
+                <button class="btn btn-success btn-lg" data-toggle="modal" data-target="#signupModal">Sign Up!</button>
+                <p class="text-muted"><small>You must be over 18 to sign up to our service. Please, drink responsibly.</small></p>
+            </section>
+        </div>
+        </div>
+    </div>
+    <!-- /.callout -->
+
+    <!-- Quotes -->
+    <div class="container quotes-container">
         <section class="quotes">
         <div class="row">
             <div class="col-12 my-5">
@@ -74,7 +80,7 @@
         <div class="row">
             <div class="col-12 col-md-6">
                 <div class="media">
-                   <div class="d-none d-sm-block">
+                    <div class="d-none d-sm-block">
                         <img src="images/girl-image.png" alt="Piture Of Girl" class="rounded-circle mr-3" height="100" width="100">
                     </div>
                     <div class="media-body">
@@ -88,7 +94,7 @@
             <div class="col-12 col-md-6">
                 <div class="media">
                     <div class="d-none d-sm-block">
-                      <img src="images/guy-image.png" alt="Piture Of Guy" class="rounded-circle mr-3" height="100" width="100">
+                        <img src="images/guy-image.png" alt="Piture Of Guy" class="rounded-circle mr-3" height="100" width="100">
                     </div>
                     <div class="media-body">
                         <blockquote class="blockquote">
@@ -100,10 +106,11 @@
             </div>
         </div>
         </section>
-        <!-- /.quotes -->
-        <hr>
+    </div>
+    <!-- /.quotes -->
 
-        <!-- Features -->
+    <!-- Features -->
+    <div class="features-container">
         <section class="features">
         <div class="row">
             <div class="col-12 my-5">
@@ -134,8 +141,9 @@
             </div>
         </div>
         </section>
-        <!-- /.features -->
-    </article>
+    </div>
+    <!-- /.features -->
+
 
     <div class="modal" tabindex="-1" role="dialog" id="signupModal">
         <div class="modal-dialog" role="document">
